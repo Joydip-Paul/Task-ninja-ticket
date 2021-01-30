@@ -50,9 +50,11 @@ function calculateSubTotal(){
 
 
     //for bookNow button 
-    document.getElementById('totalTicket1').innerHTML = "First Class Ticket: "+firstNumber;
-    document.getElementById('totalTicket2').innerHTML = "Economy Ticket: "+economyNumber;
-    document.getElementById('bookNowTotal').innerText = "Total Amount: "+finalValue;
+    document.getElementById('firstClassTicket').innerHTML = "First Class Ticket: "+firstNumber;
+    document.getElementById('economyTicket').innerHTML = "Economy Ticket: "+economyNumber;
+    var totalTicket = firstNumber+economyNumber;
+    document.getElementById('totalTicket').innerHTML = "Total Ticket: "+totalTicket;
+    document.getElementById('bookNowTotal').innerText = "Total Amount: $ "+finalValue;
 }
 
 //First Class Increment
