@@ -120,3 +120,29 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+
+
+#bookNow{
+    height: 120px;
+    width: 400px;
+    background-color: #3352F2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: absolute;
+    display: none;
+}
+#bookNow h5{
+    background-color: #fff;
+    color: #3352F2;
+    padding: 5px 10px;
+    width: 150px;
+}
+.plus-minus-btn button{
+    background-color: #3352F2;
+    padding: 5px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
